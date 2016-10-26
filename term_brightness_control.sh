@@ -1,4 +1,8 @@
 #!/bin/sh
+#script to increase or decrease brightness using xrandr.
+#<filename> [--increase|--decrease]
+#This script can be mapped to keyboard shortcuts for easy use
+
 
 #get the video port to which screen is connected
 
@@ -24,7 +28,7 @@ then
 fi
 ##
 
-#increment or decrement brightness
+#increase or decrease brightness
 
 if [ -z $1 ] 
 then 
