@@ -1,2 +1,2 @@
-# scripts_linux
-# Collection of short scripts for linux
+# cool_commands_linux
+general purpose commands
